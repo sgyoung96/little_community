@@ -17,12 +17,12 @@
     <mvc:annotation-driven />
     <context:annotation-config />
       
-    <context:component-scan base-package="com.sim..*" />
+    <context:component-scan base-package="smoim.com.sim..*" />
  	
  	<mvc:resources mapping="/resources/**" location="/resources/"/>
  
     <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="/WEB-INF/jsp/" />
+        <property name="prefix" value="/jsp/" />
         <property name="suffix" value=".jsp" />
     </bean>
     
